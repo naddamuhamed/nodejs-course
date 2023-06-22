@@ -1,0 +1,6 @@
+const func=require("./function")
+const {printt,opt}=require("./function")
+func.printt("hey")
+func.opt("no")
+printt("hey")
+opt("no")
