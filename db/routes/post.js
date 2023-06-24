@@ -26,4 +26,9 @@ router.get("/getpost/:postid",async(req,res)=>{
     const p=await post.findById(_id)
     res.json(p)
 })
+router.delete("/delete/:postid",async(req,res)=>{
+    const _id=req.params.postid
+    await post.findByIdAndRemove({_id:_id})
+    res.json({status:"post removed"})
+})
 module.exports=router
