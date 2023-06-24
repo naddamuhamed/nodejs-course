@@ -40,6 +40,8 @@
     "has-flag": "^3.0.0",
     "has-proto": "^1.0.1",
     "has-symbols": "^1.0.3",
+    "hjs": "^0.0.6",
+    "hogan-middleware": "^0.2.2",
     "http-errors": "^2.0.0",
     "iconv-lite": "^0.4.24",
     "ignore-by-default": "^1.0.1",
