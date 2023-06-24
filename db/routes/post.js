@@ -21,4 +21,9 @@ router.patch("/editdes/:postid",async(req,res)=>{
    await post.findByIdAndUpdate(_id,{$set:{description: req.body.description}})
     res.json({status:"status updated"})
 })
+router.get("/getpost/:postid",async(req,res)=>{
+    const _id=req.params.postid
+    const p=await post.findById(_id)
+    res.json(p)
+})
 module.exports=router
