@@ -1,3 +1,0 @@
-you can change test in scripts and write start and put start then put nodemon index.js in package.json file then run npm start
-or
-you can just not touch the file and run node index.js and ctrl c to exit
